@@ -1,0 +1,130 @@
+.floatClearer {
+    clear: both;
+}
+
+#treeMenu {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+#treeMenu > ul {
+    padding: 0;
+    margin: auto;
+}
+
+#treeMenu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+#treeMenu li label, #treeMenu li div {
+    cursor: pointer;
+}
+
+#treeMenu li label {
+    position: relative;
+    left: 40px;
+}
+
+#treeMenu input ~ ul {
+    display: none;
+}
+
+#treeMenu input:checked ~ ul {
+    display: block;
+}
+
+#treeMenu li.root {
+    background-image: url(../img/vertical_line.png);
+    background-repeat: repeat-y;
+}
+
+#treeMenu input {
+    position: absolute;
+    opacity: 0;
+}
+
+#treeMenu input.documentSelect {
+    position: static;
+    opacity: 1;
+}
+
+#treeMenu input.selectRoot {
+    position: static;
+    opacity: 1;
+}
+
+#treeMenu .rootSelectHolderClose {
+    position: absolute;
+    background: #ffffff url(../img/docMenuRight.png) no-repeat 1px 4px;
+    padding-left: 15px;
+}
+
+#treeMenu .rootSelectHolderOpen {
+    position: absolute;
+    background: #ffffff url(../img/docMenuDown.png) no-repeat -1px 5px;
+    padding-left: 15px;
+}
+
+#treeMenu input + label {
+    background-color: white;
+}
+
+#treeMenu li > div.document .left {
+    float: left;
+}
+
+#treeMenu li > div.document > .meta {
+    float: right;
+    color: #ccc;
+    min-width: 200px;
+    padding-left: 25px;
+}
+
+#treeMenu li > div.document > .meta.today {
+    background: #ffffff url(../img/docDateIcons.png) no-repeat 1px 4px;
+}
+
+#treeMenu li > div.document > .meta.yesterday {
+    background: #ffffff url(../img/docDateIcons.png) no-repeat 1px -97px;
+}
+
+#treeMenu li > div.document > .meta.lastWeek {
+    background: #ffffff url(../img/docDateIcons.png) no-repeat 1px -97px;
+}
+
+#treeMenu li > div.document > .meta.monthsAgo {
+    background: #ffffff url(../img/docDateIcons.png) no-repeat 1px -22px;
+}
+
+#treeMenu li > div.document:hover {
+
+}
+
+#treeMenu .order {
+    color: #ccc;
+}
+
+#treeMenu li > div.document > .type {
+    width: 18px;
+    height: 20px;
+}
+
+#treeMenu li > div.document > .type.typePowerpoint {
+    background: #ffffff url(../img/docTypeIcons.png) no-repeat 1px 1px;
+}
+
+#treeMenu li > div.document > .type.typeWord {
+    background: #ffffff url(../img/docTypeIcons.png) no-repeat 1px -23px;
+}
+
+#treeMenu li > div.document > .type.typeExcel {
+    background: #ffffff url(../img/docTypeIcons.png) no-repeat 1px -49px;
+}
+
+#treeMenu li > div.document > .type.typePdf {
+    background: #ffffff url(../img/docTypeIcons.png) no-repeat 1px -74px;
+}

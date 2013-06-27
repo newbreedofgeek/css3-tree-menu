@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Tree Menu</title>
+    <link rel="stylesheet" href="css/menu.css" />
+</head>
+<body>
+
+<div id="treeMenu">
+    <ul>
+        <li class="root">
+            <input type="checkbox" class="navRoot" id="root1"/>
+            <div class="rootSelectHolderClose">
+                <input type="checkbox" class="selectRoot"/>
+            </div>
+            <label for="root1">
+                <span class="order">01.</span> Strategy
+            </label>
+            <ul>
+                <li class="root">
+                    <input type="checkbox" class="navRoot" id="root1Level1"/>
+                    <div class="rootSelectHolderClose">
+                        <input type="checkbox" class="selectRoot"/>
+                    </div>
+                    <label for="root1Level1">
+                        <span class="order">01.01.</span> 2012 Marketing Plans
+                    </label>
+                    <ul>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typePowerpoint"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.01.</span> Category X - Marketing Presentation
+                                </div>
+                                <div class="meta today">Today</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typeWord"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.02.</span> Category Y - Marketing Presentation
+                                </div>
+                                <div class="meta monthsAgo">5 months ago</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typeExcel"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.03.</span> Category Z - Marketing Presentation 5 months ago
+                                </div>
+                                <div class="meta monthsAgo">5 months ago</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typePdf"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.04.</span> Marketing and Support Plans - Category X
+                                </div>
+                                <div class="meta monthsAgo">5 months ago</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typePdf"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.05.</span> Marketing and Support Plans - Category Y
+                                </div>
+                                <div class="meta yesterday">Yesterday</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typePdf"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.06.</span> Marketing and Support Plans - Category Z
+                                </div>
+                                <div class="meta lastWeek">Last week</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="root">
+                    <input type="checkbox" class="navRoot" id="root1Level2"/>
+                    <div class="rootSelectHolderClose">
+                        <input type="checkbox" class="selectRoot"/>
+                    </div>
+                    <label for="root1Level2">
+                        <span class="order">01.02.</span> Strategic Research
+                    </label>
+                    <ul>
+                        <li>
+                            <div class="document">
+                                <input type="checkbox" class="documentSelect left"/>
+                                <div class="type left typePdf"></div>
+                                <div class="name left">
+                                    <span class="order">01.01.01.</span> Strategy Research and Additional Information
+                                </div>
+                                <div class="meta monthsAgo">5 months ago</div>
+                                <div class="floatClearer"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="root">
+                    <input type="checkbox" class="navRoot" id="root1Level3"/>
+                    <div class="rootSelectHolderClose">
+                        <input type="checkbox" class="selectRoot"/>
+                    </div>
+                    <label for="root1Level3">
+                        <span class="order">01.02.</span> Strategy Papers
+                    </label>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="root">
+            <input type="checkbox" class="navRoot" id="root2"/>
+            <div class="rootSelectHolderClose">
+                <input type="checkbox" class="selectRoot"/>
+            </div>
+            <label for="root2">
+                <span class="order">02.</span> Plan
+            </label>
+            <ul>
+                <li class="root">
+                    <input type="checkbox" class="navRoot" id="root2Level1"/>
+                    <div class="rootSelectHolderClose">
+                        <input type="checkbox" class="selectRoot"/>
+                    </div>
+                    <label for="root2Level1">
+                        <span class="order">02.01.</span> Plan Papers
+                    </label>
+                </li>
+
+            </ul>
+        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ul>
+</div>
+
+<script type="text/javascript" src="js/vendor/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>

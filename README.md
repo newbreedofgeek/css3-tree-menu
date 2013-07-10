@@ -1,4 +1,4 @@
-css3-tree-menu
+CSS3 Tree Menu
 ==============
 
 A tree menu built using mostly CSS3 and very minimal Javascript.
